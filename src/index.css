@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&display=swap');
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Lora', serif;
+*/
+
+/*
+******************
+   Color Palette 
+******************
+*/
+:root {
+    --charcoal: #36454F;
+    --teal: #ffffff;
+    --taupe: #BBC0B6;
+    --salmon: #D58469;
+    --cream: #F0EDE4;
+    --white: #FFFFFF;
+  }
+
+/*
+***************
+   Common
+***************
+*/
+
+body{
+    background-color: var(--charcoal);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 4.0rem;
+}
+main>section{
+    padding: 1rem 2rem;
+}
+.full-hw{
+    height: calc(100vh);
+    width: calc(100%);
+}
+.flex-r{
+    display: flex;
+    flex-direction: row;
+}
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+.just-c{
+    justify-content: center;
+}
+
+/*
+**************
+    Home
+**************
+*/
+section[name="home"]{
+
+}
+.pretty{
+    background-image: url(/images/mugshot.png);
+    width: 220px;
+    height: 220px;
+    display: inherit;
+}
+
